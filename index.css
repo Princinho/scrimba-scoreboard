@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+.root-container{
+    
+    background-color: #1B244A;
+}
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    color: white;
+    width: 400px;
+    padding: 40px;
+}
+.increment-container{
+    margin-top:20px;
+}
+.increment-btn{
+    background: none;
+    border: 2px solid #9AABD8;
+    font-weight: bold;
+    border-radius:5px;
+    color: #9AABD8;
+    padding: 4px 8px;
+    font-family: 'digital',Verdana, Geneva, Tahoma, sans-serif;
+}
+.score{
+    text-align: center;
+    font-family: 'digital','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 14px;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+}
+.leading{
+    border: 2px solid white;
+    
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+}
+.reset-btn{
+    font-size: 22px;
+}
+#reset-container{
+    padding-bottom: 10px ;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+@font-face{
+    src: url('fonts/timer-font.ttf');
+    font-family: 'digital'
+}
